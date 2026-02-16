@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Phone Charger",
+      "description": "Lightning fast charging capabilities",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Small 3D Printer",
+      "description": "Large build volume, easy assembly, versatile material compatibility.",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "name": "Ceramic Vase",
+      "description": "Made from fired clay, known for its durability and decorative appeal.",
+      "price": 15
+    }
+  ],
+  "users": [
+   {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "Carl Sagan",
+      "description": "I use this charger regularly, and it has never failed me",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "Miss Piggee",
+      "description": "This small 3D printer is great for beginners.",
+      "itemId": "2"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "rosaarce-davis prototype API",
+    "creator": "RosaArce",
+    "about": "Items for an office space",
+  }
+}
